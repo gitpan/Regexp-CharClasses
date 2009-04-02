@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Regexp-CharClasses
-version:             1.2
+version:             2009040201
 abstract:            Provide character classes
 license:             ~
 author:              
