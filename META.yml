@@ -1,13 +1,35 @@
 --- #YAML:1.0
-name:                Regexp-CharClasses
-version:             2009040201
-abstract:            Provide character classes
-license:             ~
-author:              
-    - Abigail <abigail@abigail.be>
-generated_by:        ExtUtils::MakeMaker version 6.42
-distribution_type:   module
-requires:     
+name:               Regexp-CharClasses
+version:            2009102801
+abstract:           Provide character classes
+author:
+    - Abigail <regexp-charclasses@abigail.be>
+license:            mit
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    Exporter:             0
+    ExtUtils::MakeMaker:  0
+    strict:               0
+    Test::More:           0
+    warnings:             0
+requires:
+    charnames:  0
+    Exporter:   0
+    perl:       5.01
+    strict:     0
+    warnings:   0
+resources:
+    repository:  git://github.com/Abigail/regexp--charclasses.git
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.55_02
 meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
-    version: 1.3
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
+keywords:
+    - regular expression
+    - character class
